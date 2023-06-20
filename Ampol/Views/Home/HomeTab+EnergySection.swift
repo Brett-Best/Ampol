@@ -60,6 +60,7 @@ extension HomeTab {
       VStack(alignment: .leading, spacing: contentPadding) {
         Text("Recent bills")
           .font(.system(.headline, design: .rounded))
+          .foregroundColor(Color("Card Headline"))
         VStack(alignment: .leading, spacing: billsSpacing) {
           ForEach(energyBills) { energyBill in
             EnergyBillCardView(energyBill: energyBill)
