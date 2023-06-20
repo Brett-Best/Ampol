@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6D62112A40D0C80092FD2B /* ChargeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62102A40D0C80092FD2B /* ChargeTab.swift */; };
+		0B6D62132A40D14A0092FD2B /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62122A40D14A0092FD2B /* HomeTab.swift */; };
+		0B6D62152A40D1690092FD2B /* FuelPayTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62142A40D1690092FD2B /* FuelPayTab.swift */; };
+		0B6D62172A40D1880092FD2B /* EnergyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62162A40D1880092FD2B /* EnergyTab.swift */; };
+		0B6D62192A40D1980092FD2B /* ProfileTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62182A40D1980092FD2B /* ProfileTab.swift */; };
+		0B6D621B2A40D21D0092FD2B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D621A2A40D21D0092FD2B /* MainTabView.swift */; };
+		0B6D62232A40D39E0092FD2B /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62222A40D39E0092FD2B /* MainTabViewModel.swift */; };
+		0B6D62252A4175890092FD2B /* HomeTab+FuelPaySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62242A4175890092FD2B /* HomeTab+FuelPaySection.swift */; };
+		0B6D62272A4175990092FD2B /* HomeTab+ChargeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62262A4175990092FD2B /* HomeTab+ChargeSection.swift */; };
+		0B6D62292A4175AE0092FD2B /* HomeTab+EnergySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62282A4175AE0092FD2B /* HomeTab+EnergySection.swift */; };
+		0B97B7272A40A5C50011B67C /* AmpolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7262A40A5C50011B67C /* AmpolApp.swift */; };
+		0B97B7292A40A5C50011B67C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7282A40A5C50011B67C /* ContentView.swift */; };
+		0B97B72B2A40A5C70011B67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97B72A2A40A5C70011B67C /* Assets.xcassets */; };
+		0B97B72E2A40A5C70011B67C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97B72D2A40A5C70011B67C /* Preview Assets.xcassets */; };
+		0B97B7382A40A5C70011B67C /* AmpolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7372A40A5C70011B67C /* AmpolTests.swift */; };
+		0B97B7422A40A5C70011B67C /* AmpolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7412A40A5C70011B67C /* AmpolUITests.swift */; };
+		0B97B7442A40A5C70011B67C /* AmpolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7432A40A5C70011B67C /* AmpolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B97B7342A40A5C70011B67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B97B71B2A40A5C50011B67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B97B7222A40A5C50011B67C;
+			remoteInfo = Ampol;
+		};
+		0B97B73E2A40A5C70011B67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B97B71B2A40A5C50011B67C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B97B7222A40A5C50011B67C;
+			remoteInfo = Ampol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6D62102A40D0C80092FD2B /* ChargeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeTab.swift; sourceTree = "<group>"; };
+		0B6D62122A40D14A0092FD2B /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		0B6D62142A40D1690092FD2B /* FuelPayTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelPayTab.swift; sourceTree = "<group>"; };
+		0B6D62162A40D1880092FD2B /* EnergyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyTab.swift; sourceTree = "<group>"; };
+		0B6D62182A40D1980092FD2B /* ProfileTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTab.swift; sourceTree = "<group>"; };
+		0B6D621A2A40D21D0092FD2B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0B6D62222A40D39E0092FD2B /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		0B6D62242A4175890092FD2B /* HomeTab+FuelPaySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+FuelPaySection.swift"; sourceTree = "<group>"; };
+		0B6D62262A4175990092FD2B /* HomeTab+ChargeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+ChargeSection.swift"; sourceTree = "<group>"; };
+		0B6D62282A4175AE0092FD2B /* HomeTab+EnergySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+EnergySection.swift"; sourceTree = "<group>"; };
+		0B97B7232A40A5C50011B67C /* Ampol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B97B7262A40A5C50011B67C /* AmpolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolApp.swift; sourceTree = "<group>"; };
+		0B97B7282A40A5C50011B67C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B97B72A2A40A5C70011B67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B97B72D2A40A5C70011B67C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B97B7332A40A5C70011B67C /* Ampol Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ampol Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B97B7372A40A5C70011B67C /* AmpolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolTests.swift; sourceTree = "<group>"; };
+		0B97B73D2A40A5C70011B67C /* Ampol UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ampol UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B97B7412A40A5C70011B67C /* AmpolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITests.swift; sourceTree = "<group>"; };
+		0B97B7432A40A5C70011B67C /* AmpolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B97B7502A40A7D10011B67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B97B7202A40A5C50011B67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B7302A40A5C70011B67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B73A2A40A5C70011B67C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6D620F2A40D0C00092FD2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D621C2A40D3580092FD2B /* Charge */,
+				0B6D621D2A40D35F0092FD2B /* Energy */,
+				0B6D621E2A40D36B0092FD2B /* FuelPay */,
+				0B6D621F2A40D3760092FD2B /* Home */,
+				0B6D62202A40D37B0092FD2B /* Profile */,
+				0B6D62212A40D3840092FD2B /* Main Tab */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B6D621C2A40D3580092FD2B /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62102A40D0C80092FD2B /* ChargeTab.swift */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
+		0B6D621D2A40D35F0092FD2B /* Energy */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62162A40D1880092FD2B /* EnergyTab.swift */,
+			);
+			path = Energy;
+			sourceTree = "<group>";
+		};
+		0B6D621E2A40D36B0092FD2B /* FuelPay */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62142A40D1690092FD2B /* FuelPayTab.swift */,
+			);
+			path = FuelPay;
+			sourceTree = "<group>";
+		};
+		0B6D621F2A40D3760092FD2B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62122A40D14A0092FD2B /* HomeTab.swift */,
+				0B6D62242A4175890092FD2B /* HomeTab+FuelPaySection.swift */,
+				0B6D62262A4175990092FD2B /* HomeTab+ChargeSection.swift */,
+				0B6D62282A4175AE0092FD2B /* HomeTab+EnergySection.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0B6D62202A40D37B0092FD2B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62182A40D1980092FD2B /* ProfileTab.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0B6D62212A40D3840092FD2B /* Main Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D621A2A40D21D0092FD2B /* MainTabView.swift */,
+				0B6D62222A40D39E0092FD2B /* MainTabViewModel.swift */,
+			);
+			path = "Main Tab";
+			sourceTree = "<group>";
+		};
+		0B97B71A2A40A5C50011B67C = {
+			isa = PBXGroup;
+			children = (
+				0B97B7252A40A5C50011B67C /* Ampol */,
+				0B97B7362A40A5C70011B67C /* Ampol Tests */,
+				0B97B7402A40A5C70011B67C /* Ampol UI Tests */,
+				0B97B7242A40A5C50011B67C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B97B7242A40A5C50011B67C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B7232A40A5C50011B67C /* Ampol.app */,
+				0B97B7332A40A5C70011B67C /* Ampol Tests.xctest */,
+				0B97B73D2A40A5C70011B67C /* Ampol UI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B97B7252A40A5C50011B67C /* Ampol */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B7502A40A7D10011B67C /* Info.plist */,
+				0B97B7262A40A5C50011B67C /* AmpolApp.swift */,
+				0B6D620F2A40D0C00092FD2B /* Views */,
+				0B97B7282A40A5C50011B67C /* ContentView.swift */,
+				0B97B72A2A40A5C70011B67C /* Assets.xcassets */,
+				0B97B72C2A40A5C70011B67C /* Preview Content */,
+			);
+			path = Ampol;
+			sourceTree = "<group>";
+		};
+		0B97B72C2A40A5C70011B67C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B72D2A40A5C70011B67C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B97B7362A40A5C70011B67C /* Ampol Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B7372A40A5C70011B67C /* AmpolTests.swift */,
+			);
+			path = "Ampol Tests";
+			sourceTree = "<group>";
+		};
+		0B97B7402A40A5C70011B67C /* Ampol UI Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0B97B7412A40A5C70011B67C /* AmpolUITests.swift */,
+				0B97B7432A40A5C70011B67C /* AmpolUITestsLaunchTests.swift */,
+			);
+			path = "Ampol UI Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B97B7222A40A5C50011B67C /* Ampol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B97B7472A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol" */;
+			buildPhases = (
+				0B97B71F2A40A5C50011B67C /* Sources */,
+				0B97B7202A40A5C50011B67C /* Frameworks */,
+				0B97B7212A40A5C50011B67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6D620A2A40B2D10092FD2B /* PBXTargetDependency */,
+			);
+			name = Ampol;
+			productName = Ampol;
+			productReference = 0B97B7232A40A5C50011B67C /* Ampol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B97B7322A40A5C70011B67C /* Ampol Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B97B74A2A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol Tests" */;
+			buildPhases = (
+				0B97B72F2A40A5C70011B67C /* Sources */,
+				0B97B7302A40A5C70011B67C /* Frameworks */,
+				0B97B7312A40A5C70011B67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6D620C2A40B3490092FD2B /* PBXTargetDependency */,
+				0B97B7352A40A5C70011B67C /* PBXTargetDependency */,
+			);
+			name = "Ampol Tests";
+			productName = AmpolTests;
+			productReference = 0B97B7332A40A5C70011B67C /* Ampol Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B97B73C2A40A5C70011B67C /* Ampol UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B97B74D2A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol UI Tests" */;
+			buildPhases = (
+				0B97B7392A40A5C70011B67C /* Sources */,
+				0B97B73A2A40A5C70011B67C /* Frameworks */,
+				0B97B73B2A40A5C70011B67C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B6D620E2A40B34D0092FD2B /* PBXTargetDependency */,
+				0B97B73F2A40A5C70011B67C /* PBXTargetDependency */,
+			);
+			name = "Ampol UI Tests";
+			productName = AmpolUITests;
+			productReference = 0B97B73D2A40A5C70011B67C /* Ampol UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B97B71B2A40A5C50011B67C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Ampol Australia Petroleum Pty Ltd";
+				TargetAttributes = {
+					0B97B7222A40A5C50011B67C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0B97B7322A40A5C70011B67C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0B97B7222A40A5C50011B67C;
+					};
+					0B97B73C2A40A5C70011B67C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0B97B7222A40A5C50011B67C;
+					};
+				};
+			};
+			buildConfigurationList = 0B97B71E2A40A5C50011B67C /* Build configuration list for PBXProject "Ampol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B97B71A2A40A5C50011B67C;
+			packageReferences = (
+				0B6D62082A40B2650092FD2B /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
+			productRefGroup = 0B97B7242A40A5C50011B67C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B97B7222A40A5C50011B67C /* Ampol */,
+				0B97B7322A40A5C70011B67C /* Ampol Tests */,
+				0B97B73C2A40A5C70011B67C /* Ampol UI Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B97B7212A40A5C50011B67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B97B72E2A40A5C70011B67C /* Preview Assets.xcassets in Resources */,
+				0B97B72B2A40A5C70011B67C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B7312A40A5C70011B67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B73B2A40A5C70011B67C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B97B71F2A40A5C50011B67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D62152A40D1690092FD2B /* FuelPayTab.swift in Sources */,
+				0B6D62272A4175990092FD2B /* HomeTab+ChargeSection.swift in Sources */,
+				0B6D62132A40D14A0092FD2B /* HomeTab.swift in Sources */,
+				0B6D62112A40D0C80092FD2B /* ChargeTab.swift in Sources */,
+				0B6D62292A4175AE0092FD2B /* HomeTab+EnergySection.swift in Sources */,
+				0B6D621B2A40D21D0092FD2B /* MainTabView.swift in Sources */,
+				0B6D62192A40D1980092FD2B /* ProfileTab.swift in Sources */,
+				0B97B7292A40A5C50011B67C /* ContentView.swift in Sources */,
+				0B97B7272A40A5C50011B67C /* AmpolApp.swift in Sources */,
+				0B6D62172A40D1880092FD2B /* EnergyTab.swift in Sources */,
+				0B6D62232A40D39E0092FD2B /* MainTabViewModel.swift in Sources */,
+				0B6D62252A4175890092FD2B /* HomeTab+FuelPaySection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B72F2A40A5C70011B67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B97B7382A40A5C70011B67C /* AmpolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B97B7392A40A5C70011B67C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B97B7442A40A5C70011B67C /* AmpolUITestsLaunchTests.swift in Sources */,
+				0B97B7422A40A5C70011B67C /* AmpolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B6D620A2A40B2D10092FD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B6D62092A40B2D10092FD2B /* SwiftLintPlugin */;
+		};
+		0B6D620C2A40B3490092FD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B6D620B2A40B3490092FD2B /* SwiftLintPlugin */;
+		};
+		0B6D620E2A40B34D0092FD2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 0B6D620D2A40B34D0092FD2B /* SwiftLintPlugin */;
+		};
+		0B97B7352A40A5C70011B67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B97B7222A40A5C50011B67C /* Ampol */;
+			targetProxy = 0B97B7342A40A5C70011B67C /* PBXContainerItemProxy */;
+		};
+		0B97B73F2A40A5C70011B67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B97B7222A40A5C50011B67C /* Ampol */;
+			targetProxy = 0B97B73E2A40A5C70011B67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B97B7452A40A5C70011B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B97B7462A40A5C70011B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B97B7482A40A5C70011B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ampol/Preview Content\"";
+				DEVELOPMENT_TEAM = THD97639S3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ampol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.Ampol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B97B7492A40A5C70011B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ampol/Preview Content\"";
+				DEVELOPMENT_TEAM = THD97639S3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ampol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.Ampol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B97B74B2A40A5C70011B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.AmpolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol";
+			};
+			name = Debug;
+		};
+		0B97B74C2A40A5C70011B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.AmpolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol";
+			};
+			name = Release;
+		};
+		0B97B74E2A40A5C70011B67C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.AmpolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ampol;
+			};
+			name = Debug;
+		};
+		0B97B74F2A40A5C70011B67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THD97639S3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.brettbest.AmpolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ampol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B97B71E2A40A5C50011B67C /* Build configuration list for PBXProject "Ampol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B97B7452A40A5C70011B67C /* Debug */,
+				0B97B7462A40A5C70011B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B97B7472A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B97B7482A40A5C70011B67C /* Debug */,
+				0B97B7492A40A5C70011B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B97B74A2A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B97B74B2A40A5C70011B67C /* Debug */,
+				0B97B74C2A40A5C70011B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B97B74D2A40A5C70011B67C /* Build configuration list for PBXNativeTarget "Ampol UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B97B74E2A40A5C70011B67C /* Debug */,
+				0B97B74F2A40A5C70011B67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B6D62082A40B2650092FD2B /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.52.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B6D62092A40B2D10092FD2B /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B6D62082A40B2650092FD2B /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		0B6D620B2A40B3490092FD2B /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B6D62082A40B2650092FD2B /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+		0B6D620D2A40B34D0092FD2B /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B6D62082A40B2650092FD2B /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0B97B71B2A40A5C50011B67C /* Project object */;
+}
