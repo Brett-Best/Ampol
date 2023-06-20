@@ -9,11 +9,15 @@
 import SwiftUI
 
 struct MainTabView: View {
-  @ObservedObject var viewModel = MainTabViewModel()
+  @StateObject var viewModel = MainTabViewModel()
+  @StateObject var ampolEnergyAccountController = AmpolEnergyAccountController(
+    ampolEnergyAccountDataProvider: MockAmpolEnergyAccountDataProvider()
+  )
 
   var body: some View {
     TabView(selection: $viewModel.selectedTab) {
       HomeTab(
+        ampolEnergyAccountController: ampolEnergyAccountController,
         onProfileSelected: { viewModel.selectedTab = .profile }
       )
       FuelPayTab()

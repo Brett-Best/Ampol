@@ -15,7 +15,8 @@ struct HomeTab: View {
 
   static let tab = MainTabViewModel.Tab.home
 
-  var onProfileSelected: () -> Void
+  let ampolEnergyAccountController: AmpolEnergyAccountController
+  let onProfileSelected: () -> Void
 
   @ScaledMetric(relativeTo: .title3)
   var sectionsSpacing = 24
@@ -26,7 +27,7 @@ struct HomeTab: View {
         VStack(spacing: sectionsSpacing) {
           FuelPaySection()
           ChargeSection()
-          EnergySection()
+          EnergySection(ampolEnergyAccountController: ampolEnergyAccountController)
         }
         .padding(16)
       }
