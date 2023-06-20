@@ -25,7 +25,16 @@ extension HomeTab {
 
     func content() -> some View {
       VStack(alignment: .leading) {
-        Text("Recent transactions")
+        Text(
+          """
+          Quos quisquam vero dolorem commodi ut cumque perferendis eaque accusantium est.
+
+          Necessitatibus quod aut consequatur dignissimos iure delectus rem.
+
+          Quasi doloribus rerum veniam quidem nobis est aliquid voluptates nesciunt rerum unde tempora est.
+          """
+        )
+        .redacted(reason: .placeholder)
       }
       .frame(maxWidth: .infinity, alignment: .leading)
       .padding(contentPadding)
