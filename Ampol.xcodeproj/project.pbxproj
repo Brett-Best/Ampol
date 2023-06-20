@@ -17,8 +17,15 @@
 		0B6D62252A4175890092FD2B /* HomeTab+FuelPaySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62242A4175890092FD2B /* HomeTab+FuelPaySection.swift */; };
 		0B6D62272A4175990092FD2B /* HomeTab+ChargeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62262A4175990092FD2B /* HomeTab+ChargeSection.swift */; };
 		0B6D62292A4175AE0092FD2B /* HomeTab+EnergySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62282A4175AE0092FD2B /* HomeTab+EnergySection.swift */; };
+		0B6D622C2A41EA5F0092FD2B /* EnergyBillDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D622B2A41EA5F0092FD2B /* EnergyBillDTO.swift */; };
+		0B6D622F2A41EBBC0092FD2B /* AmpolEnergyAccountDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D622E2A41EBBC0092FD2B /* AmpolEnergyAccountDataProvider.swift */; };
+		0B6D62312A41ECF20092FD2B /* EnergyBillDTO+Fake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62302A41ECF20092FD2B /* EnergyBillDTO+Fake.swift */; };
+		0B6D62342A41F4CF0092FD2B /* OperationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62332A41F4CF0092FD2B /* OperationState.swift */; };
+		0B6D62362A41F5660092FD2B /* AmpolEnergyAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62352A41F5660092FD2B /* AmpolEnergyAccountController.swift */; };
+		0B6D62392A41F7FD0092FD2B /* MockAmpolEnergyAccountDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D62382A41F7FD0092FD2B /* MockAmpolEnergyAccountDataProvider.swift */; };
+		0B6D623B2A41FA5B0092FD2B /* InlineLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D623A2A41FA5B0092FD2B /* InlineLoadingView.swift */; };
+		0B6D623D2A4200680092FD2B /* EnergyBillCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D623C2A4200680092FD2B /* EnergyBillCardView.swift */; };
 		0B97B7272A40A5C50011B67C /* AmpolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7262A40A5C50011B67C /* AmpolApp.swift */; };
-		0B97B7292A40A5C50011B67C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7282A40A5C50011B67C /* ContentView.swift */; };
 		0B97B72B2A40A5C70011B67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97B72A2A40A5C70011B67C /* Assets.xcassets */; };
 		0B97B72E2A40A5C70011B67C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B97B72D2A40A5C70011B67C /* Preview Assets.xcassets */; };
 		0B97B7382A40A5C70011B67C /* AmpolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B97B7372A40A5C70011B67C /* AmpolTests.swift */; };
@@ -54,9 +61,16 @@
 		0B6D62242A4175890092FD2B /* HomeTab+FuelPaySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+FuelPaySection.swift"; sourceTree = "<group>"; };
 		0B6D62262A4175990092FD2B /* HomeTab+ChargeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+ChargeSection.swift"; sourceTree = "<group>"; };
 		0B6D62282A4175AE0092FD2B /* HomeTab+EnergySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeTab+EnergySection.swift"; sourceTree = "<group>"; };
+		0B6D622B2A41EA5F0092FD2B /* EnergyBillDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyBillDTO.swift; sourceTree = "<group>"; };
+		0B6D622E2A41EBBC0092FD2B /* AmpolEnergyAccountDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolEnergyAccountDataProvider.swift; sourceTree = "<group>"; };
+		0B6D62302A41ECF20092FD2B /* EnergyBillDTO+Fake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyBillDTO+Fake.swift"; sourceTree = "<group>"; };
+		0B6D62332A41F4CF0092FD2B /* OperationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationState.swift; sourceTree = "<group>"; };
+		0B6D62352A41F5660092FD2B /* AmpolEnergyAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolEnergyAccountController.swift; sourceTree = "<group>"; };
+		0B6D62382A41F7FD0092FD2B /* MockAmpolEnergyAccountDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAmpolEnergyAccountDataProvider.swift; sourceTree = "<group>"; };
+		0B6D623A2A41FA5B0092FD2B /* InlineLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineLoadingView.swift; sourceTree = "<group>"; };
+		0B6D623C2A4200680092FD2B /* EnergyBillCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyBillCardView.swift; sourceTree = "<group>"; };
 		0B97B7232A40A5C50011B67C /* Ampol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B97B7262A40A5C50011B67C /* AmpolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolApp.swift; sourceTree = "<group>"; };
-		0B97B7282A40A5C50011B67C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B97B72A2A40A5C70011B67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B97B72D2A40A5C70011B67C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B97B7332A40A5C70011B67C /* Ampol Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ampol Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +115,7 @@
 				0B6D621F2A40D3760092FD2B /* Home */,
 				0B6D62202A40D37B0092FD2B /* Profile */,
 				0B6D62212A40D3840092FD2B /* Main Tab */,
+				0B6D623A2A41FA5B0092FD2B /* InlineLoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				0B6D62162A40D1880092FD2B /* EnergyTab.swift */,
+				0B6D623C2A4200680092FD2B /* EnergyBillCardView.swift */,
 			);
 			path = Energy;
 			sourceTree = "<group>";
@@ -157,6 +173,40 @@
 			path = "Main Tab";
 			sourceTree = "<group>";
 		};
+		0B6D622A2A41EA3E0092FD2B /* Data Transfer Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D622B2A41EA5F0092FD2B /* EnergyBillDTO.swift */,
+				0B6D62302A41ECF20092FD2B /* EnergyBillDTO+Fake.swift */,
+			);
+			path = "Data Transfer Objects";
+			sourceTree = "<group>";
+		};
+		0B6D622D2A41EB940092FD2B /* Data Providers */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D622E2A41EBBC0092FD2B /* AmpolEnergyAccountDataProvider.swift */,
+				0B6D62382A41F7FD0092FD2B /* MockAmpolEnergyAccountDataProvider.swift */,
+			);
+			path = "Data Providers";
+			sourceTree = "<group>";
+		};
+		0B6D62322A41F4940092FD2B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62332A41F4CF0092FD2B /* OperationState.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0B6D62372A41F56B0092FD2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B6D62352A41F5660092FD2B /* AmpolEnergyAccountController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0B97B71A2A40A5C50011B67C = {
 			isa = PBXGroup;
 			children = (
@@ -182,10 +232,13 @@
 			children = (
 				0B97B7502A40A7D10011B67C /* Info.plist */,
 				0B97B7262A40A5C50011B67C /* AmpolApp.swift */,
-				0B6D620F2A40D0C00092FD2B /* Views */,
-				0B97B7282A40A5C50011B67C /* ContentView.swift */,
 				0B97B72A2A40A5C70011B67C /* Assets.xcassets */,
+				0B6D62372A41F56B0092FD2B /* Controllers */,
+				0B6D622D2A41EB940092FD2B /* Data Providers */,
+				0B6D622A2A41EA3E0092FD2B /* Data Transfer Objects */,
 				0B97B72C2A40A5C70011B67C /* Preview Content */,
+				0B6D62322A41F4940092FD2B /* Utilities */,
+				0B6D620F2A40D0C00092FD2B /* Views */,
 			);
 			path = Ampol;
 			sourceTree = "<group>";
@@ -352,18 +405,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6D623D2A4200680092FD2B /* EnergyBillCardView.swift in Sources */,
 				0B6D62152A40D1690092FD2B /* FuelPayTab.swift in Sources */,
+				0B6D62342A41F4CF0092FD2B /* OperationState.swift in Sources */,
 				0B6D62272A4175990092FD2B /* HomeTab+ChargeSection.swift in Sources */,
 				0B6D62132A40D14A0092FD2B /* HomeTab.swift in Sources */,
 				0B6D62112A40D0C80092FD2B /* ChargeTab.swift in Sources */,
 				0B6D62292A4175AE0092FD2B /* HomeTab+EnergySection.swift in Sources */,
+				0B6D623B2A41FA5B0092FD2B /* InlineLoadingView.swift in Sources */,
 				0B6D621B2A40D21D0092FD2B /* MainTabView.swift in Sources */,
+				0B6D622F2A41EBBC0092FD2B /* AmpolEnergyAccountDataProvider.swift in Sources */,
 				0B6D62192A40D1980092FD2B /* ProfileTab.swift in Sources */,
-				0B97B7292A40A5C50011B67C /* ContentView.swift in Sources */,
+				0B6D622C2A41EA5F0092FD2B /* EnergyBillDTO.swift in Sources */,
+				0B6D62392A41F7FD0092FD2B /* MockAmpolEnergyAccountDataProvider.swift in Sources */,
 				0B97B7272A40A5C50011B67C /* AmpolApp.swift in Sources */,
 				0B6D62172A40D1880092FD2B /* EnergyTab.swift in Sources */,
 				0B6D62232A40D39E0092FD2B /* MainTabViewModel.swift in Sources */,
+				0B6D62312A41ECF20092FD2B /* EnergyBillDTO+Fake.swift in Sources */,
 				0B6D62252A4175890092FD2B /* HomeTab+FuelPaySection.swift in Sources */,
+				0B6D62362A41F5660092FD2B /* AmpolEnergyAccountController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
